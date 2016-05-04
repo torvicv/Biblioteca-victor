@@ -1,0 +1,12 @@
+CACHE MANIFEST
+
+# 16-02-2016 v1.08
+
+Biblioteca/PIC_0015_2.jpg
+inicio.php
+
+NETWORK:
+*
+
+FALLBACK:
+/php/ inicio.php

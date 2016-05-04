@@ -1,0 +1,10 @@
+-La primera pagina es index.php, que no se muestra. La segunda página es inicio.php, que es la primera que se muestra, desde
+ahí va a las cinco temáticas (filosofía, ciencia ficción, deportes, comic y jardineria), a la par que inicio esta servicios
+que nos lleva a comentarios y ver libros prestados; a la par que inicio y servicios, esta también mapa y contacto.
+-La página inicio.inc es una página como index que sirve para guardar la clase con la que manejamos las diferentes páginas.
+inicio2 empieza en inicio.inc.
+POR HACER:
+-Intentar en arrayLibros en index.php buscar una función que no distinga entre mayúsculas y minúsculas (que no sea case 
+sensitive).
+-Buscar la forma de poner alguna señal en la pagina del tema (por ej.: La tumba de huma, su página tema es ciencia 
+ficción) para saber si esta prestado.
