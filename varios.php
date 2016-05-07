@@ -19,8 +19,8 @@ class varios extends inicio2{
                               "Editorial miñon" => array("La leyenda de las palabras",
                                                          "El libro de las fabulas"));
     
-                                                 function tematica($tematica) {
-                                                     parent::tematica($this->librosVarios);
+                                                 function tematicas($tematica) {
+                                                     parent::tematicas($this->librosVarios);
                                                  }
 }
 

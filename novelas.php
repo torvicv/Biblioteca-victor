@@ -18,8 +18,8 @@ class novelas extends inicio2{
                                "Manuel Jimenez Bellón" => array("Jugando desnudo en la arena"),
                                "Edgar Allan Poe" => array("Las aventuras de arturo gordon pym"),
                                "J. Oliver Curwood" => array("El bosque en llamas"));
-                           function tematica($tematica) {
-                               parent::tematica($this->librosNovelas);
+                           function tematicas($tematica) {
+                               parent::tematicas($this->librosNovelas);
                            }
 }
 

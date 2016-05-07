@@ -12,8 +12,8 @@ class jardineria extends inicio2{
                                                              "Tus plantas 3"),
                                   "Editorial Virus" => array("Del cannabis y su cultivo"));
             
-    function tematica($tematica) {
-        parent::tematica($this->librosJardineria);
+    function tematicas($tematica) {
+        parent::tematicas($this->librosJardineria);
     }
 }
 $paginaJardineria = new jardineria();

@@ -12,8 +12,8 @@ class filosofia extends inicio2{
                                  "José Ferrater Mora"=>array("Diccionario de filosofia abreviado"),
                                  "Lenin"=>array("El estado y la revolucion"),
                                  "Spinoza"=>array("Etica"));
-                             function tematica($tematica) {
-                                 parent::tematica($this->librosFilosofia);
+                             function tematicas($tematica) {
+                                 parent::tematicas($this->librosFilosofia);
                              }
                                                
 }

@@ -67,8 +67,8 @@ class cienciaFiccion extends inicio2{
                                                               "Tigana",
                                                               "La sombra de sus alas"));
     
-    function tematica($tematica) {
-        parent::tematica($this->librosCienciaFiccion);
+    function tematicas($tematica) {
+        parent::tematicas($this->librosCienciaFiccion);
     }
 }
 

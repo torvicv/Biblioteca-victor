@@ -15,7 +15,7 @@ class inicio2 extends pagina{
             . "libro escogido que te llevará a la página del libro.</aside>";
     var $libros;
     
-            function tematica($tematica) { 
+            function tematicas($tematica) { 
                 echo "<table id='cf'>";
                 while (list($volumenes,$titulos)=each($tematica)){
                     echo "<tr><th rowspan='".count($titulos)."'>$volumenes</th>";

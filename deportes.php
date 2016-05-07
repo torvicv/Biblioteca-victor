@@ -27,8 +27,8 @@ class deportes extends inicio2{
                                                   "Anuario Marca 1995/96",
                                                   "Curso de monitor y entrenador nacional de fisicoculturismo"));
             
-    function tematica($tematica){
-        parent::tematica($this->librosDeportes);
+    function tematicas($tematica){
+        parent::tematicas($this->librosDeportes);
     }
    
 }
