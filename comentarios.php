@@ -25,6 +25,6 @@ function Tematica(){
 }
 }
 
-$paginaComentarios = new formularioComentarios();
+$paginaComentarios = new comentarios();
 $paginaComentarios->setTitulo("Formulario Comentarios");
 $paginaComentarios->mostrar();

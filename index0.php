@@ -242,7 +242,7 @@
             var $palabrasClave = "Libreria online, aqui pondremos las palabras clave.
                 Podemos personalizarlas para cada pagina.";
             var $description = "Aquí pondremos la description de la pagina";
-            var $botones = array("Inicio" => "inicio.php",
+            var $botones = array("Inicio" => "index.php",
                                  "Contacto" => "contacto.php",
                                  "Servicios" => "servicio.php",
                                  "Mapa" => "mapa.php");
