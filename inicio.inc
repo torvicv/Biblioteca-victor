@@ -91,7 +91,7 @@ class inicio2 extends pagina{
                 $this->mostrarMenu($this->fila2botones);
                 echo $this->contenido;
                 echo $this->instrucciones;
-                $this->tematica($this->libros);
+                $this->tematicas($this->libros);
                 $this->mostrarFooter();
                 echo "</body>\n</html>\n";
     }
