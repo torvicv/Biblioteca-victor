@@ -320,7 +320,9 @@
             a:hover {text-decoration: underline;}
             a:active {text-decoration: underline;}
             aside {float: right; width: 150px; background-color: aqua; padding: 10px;
-                   border: 10px groove aqua;text-align: justify;margin-bottom: 30px;margin-left: 30px;} /* está tanto en inicio.inc como en indexLibros.php */
+                   border: 10px solid transparent;text-align: justify;margin-bottom: 30px;margin-left: 30px;
+                   border-image: url("Biblioteca/border1.jpg") 25% stretch;}/* está tanto en inicio.inc como en indexLibros.php */
+            aside#border {border-image: url("../Biblioteca/border1.jpg") 25% stretch;}
             article#libros {background-color: lightblue;padding: 10px;border: 10px groove lightblue;} /*esta en todos los libros de carpeta libros */
             div#mdt {text-align: center;} /* se encuentra en la colección La máquina del tiempo */
             div#contenido {background-color: turquoise;padding: 15px;color: blue;border: 10px ridge turquoise;} /* está en indexLibros.php */

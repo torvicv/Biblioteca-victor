@@ -4,7 +4,7 @@
       class libros extends inicio2{
           
         var $contenido = "<div id=\"contenido\"><h1>Biblioteca Victor Cabral Vida</h1></div>";
-        var $instrucciones = "<aside><h3>Instrucciones</h3>Para pedir prestado el libro, pincha en el "
+        var $instrucciones = "<aside id='border'><h3>Instrucciones</h3>Para pedir prestado el libro, pincha en el "
                 . "enlace al final de la pagina.</aside>";
         var $url;
         function enlace(){
